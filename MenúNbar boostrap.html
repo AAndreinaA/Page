@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Meú</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <!-- Añadir enlaces a la barra -->
+  <!-- poner fondo color -->
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Andre</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Catálogo</a></li>
+      <li><a href="#">Servicios</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+  <center>
+<div class="container">
+  <h1>Formulario de registro</h1>
+<form action="" method="get">
+    <p>
+<label for="nombre">Nombre</label><input type="text" name="nombre" id="nombre" maxlength="50">
+    </p>
+<p>
+    <label for="nombre">Apellidos</label><input type="text" name="apellidos" id="apellidos" maxlength="50">
+</p>
+<p>
+Sexo: <input type="radio" name="sexo" id="sexo-h" value="h"/>
+<label for="sexo-h">hombre</label> <input type="radio" name="sexo" id="sexo-m" value="m"/><label for="sexo-m">mujer</label>
+</p>
+<p><label for="correo">Correo</label> <input type="text"name="correo" maxlength="100"/></p>
+<p>
+<label for="poblacion">Población</label>
+<select name="poblacion" id="poblacion">
+<option>Alicante</option>
+<option>Madrid</option>
+<option>Sevilla</option>
+<option>Valencia</option>
+</select>
+</p>
+
+<p><label for="descripcon">Descripción</label>
+<textarea name="descripcion" id="descripcion" rows="6" cols="60"></textarea>
+</p>
+
+<p>
+<input type="checkbox" name="info" id="info" checked="checked"/>
+<label for="info">Deseo recibir información sobre novedades y ofertas</label>
+</p>
+
+<p>
+<input type="checkbox" name="condiciones"/><label for="condiciones">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+</p>
+
+<p><input type="submit" value="enviar"/></p>
+</form>
+</center>
+</body>
+</html>
